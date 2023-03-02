@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2e8eb"
+    tools:context=".activities.SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:text="Let's create your account :)"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Email"
+            android:drawableEnd="@drawable/email"
+            android:id="@+id/et_Username"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Password"
+            android:drawableEnd="@drawable/password"
+            android:id="@+id/et_Password"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:hint="Confirm Password"
+            android:gravity="center"
+            android:drawableEnd="@drawable/password"
+            android:id="@+id/et_CPassword"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bRegister"
+            android:text="Register"
+            android:layout_marginTop="50dp"
+            android:background="#FAD965"/>
+    </LinearLayout>
+
+</ScrollView>
